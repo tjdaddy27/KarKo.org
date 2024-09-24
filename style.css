@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #004466;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #006699;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #006699;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+/* Stylish Button */
+.styled-button {
+    background-color: #f39c12;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.styled-button:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #004466;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Section for the image at the bottom */
+.image-section {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+/* Styled image with a decorative border */
+.styled-image {
+    border: 10px solid #f39c12;  /* Stylish yellow-orange border */
+    border-radius: 20px;          /* Rounded corners for the image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adding a shadow for depth */
+    width: 80%;                   /* Responsive width */
+    max-width: 600px;              /* Max size of the image */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect to add interactivity */
+.styled-image:hover {
+    transform: scale(1.05);        /* Slight zoom when hovered */
+}
+
